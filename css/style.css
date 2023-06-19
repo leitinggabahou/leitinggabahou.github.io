@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0 auto;
+    font-size: 14px;
+    background: #fff4e8;
+    color: #333;
+    position: relative;
+}
+img{
+    border: none;
+}
+a{
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+    outline: none;
+}
+ul{
+    list-style-type: none;
+}
+em{
+    font-style: normal;
+}
+.lt{
+    float: left;
+}
+.rt{
+    float: left;
+}
+div.clear{
+    font: 0px Arial;
+    line-height: 0;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.wrapin{
+    height: 50px;
+    background: #deda3b;
+}
+.nav li{
+    line-height: 50px;
+    float: left;
+    width: 20%;
+    text-align: center;
+    font-size: 16px;
+}
+.nav li a{
+    color: #333;
+}
+.banner {
+    display: block;
+}
+.banner img{
+    height: 30%;
+    width: 100%;
+    display: block;
+}
+.con {
+    padding: 15px;
+    background: #fff;
+}
+.top.text{
+    float: left;
+    width: 60%;
+    margin-top: 20px;
+}
+.top .pic{
+    float: left;
+    width: 38%;
+    margin-top: 28px;
+}
+.top.pic img{
+    width: 50%;
+}
+.title{
+    padding: 20px 0;
+}
+.title h2{
+    color: #6b4c15;
+}
+.tupian ul{
+    margin: 0 -15px;
+}
+.tupian ul li{
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.tupian ul li img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+footer{
+    position: relative;
+    height: 200px;
+}
+.juesw li{
+    position: relative;
+    height: 200px;
+}
+.juesw li.pic{
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    border-radius: 160px;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+.juesw li.pic img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.juesw li .text{
+    margin-left: 180px;
+    padding-top: 30px;
+}
+.juesw li .text h2{margin-bottom: 10px;}
+.juesw li .text p{line-height: 26px;}
