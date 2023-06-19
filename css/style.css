@@ -28,7 +28,7 @@ em{
     float: left;
 }
 .rt{
-    float: left;
+    float: right;
 }
 div.clear{
     font: 0px Arial;
@@ -60,7 +60,6 @@ div.clear{
     display: block;
 }
 .banner img{
-    height: 30%;
     width: 100%;
     display: block;
 }
@@ -71,7 +70,7 @@ div.clear{
 .top.text{
     float: left;
     width: 60%;
-    margin-top: 20px;
+    margin-top: 26px;
 }
 .top .pic{
     float: left;
@@ -79,7 +78,7 @@ div.clear{
     margin-top: 28px;
 }
 .top.pic img{
-    width: 50%;
+    width: 100%;
 }
 .title{
     padding: 20px 0;
@@ -102,8 +101,9 @@ div.clear{
     object-fit: cover;
 }
 footer{
-    position: relative;
-    height: 200px;
+    background: #feda3b;
+    text-align: center;
+    line-height: 50px;
 }
 .juesw li{
     position: relative;
@@ -111,7 +111,7 @@ footer{
 }
 .juesw li.pic{
     height: 160px;
-    width: 160px;
+    width: 160x;
     position: absolute;
     left: 0;
     top: 20px;
